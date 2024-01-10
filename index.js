@@ -40,3 +40,7 @@ if (myAge === true) {
 else {
     console.log('You are not eligible for voting.');
 }
+function details(person) {
+    return "Hello my name is " + person.name + ". My Age is " + person.age + ". I live in " + person.address + ". My gender is " + person.gender + ". My height is " + person.height + ".";
+}
+console.log(details({ gender: "male", height: 162, name: "Koustubh Lapate", age: 21, address: "Pune" }));
